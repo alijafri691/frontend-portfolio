@@ -7,7 +7,7 @@ const AcademicBg = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:8000/api/academic")
+      .get("https://backend-portfolio-indol.vercel.app/api/academic")
       .then((res) => setAcademicBg(res.data.data))
       .catch((err) => console.error(err));
   }, []);

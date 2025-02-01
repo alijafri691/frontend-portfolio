@@ -7,7 +7,7 @@ const Hobbies = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:8000/api/hobbies")
+      .get("https://backend-portfolio-indol.vercel.app/api/hobbies")
       .then((res) => setHobbies(res.data.data.Hobbies))
       .catch((err) => console.error(err));
   }, []);

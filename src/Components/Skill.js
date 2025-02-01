@@ -7,7 +7,7 @@ const Skills = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:8000/api/skill")
+      .get("https://backend-portfolio-indol.vercel.app/api/skill")
       .then((res) => setSkills(res.data.data.Skill))
       .catch((err) => console.error(err));
   }, []);

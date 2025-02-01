@@ -7,7 +7,7 @@ const AboutMe = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:8000/api/aboutme")
+      .get("https://backend-portfolio-indol.vercel.app/api/aboutme")
       .then((res) => setAboutMe(res.data.data))
       .catch((err) => console.error(err));
   }, []);
