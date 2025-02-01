@@ -1,0 +1,19 @@
+.hobbies-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.hobbies-container h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.hobbies-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.hobbies-container li {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
